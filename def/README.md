@@ -10,7 +10,7 @@ You have the entire PyTorch codebase indexed. Your goal is to extract the comple
 
 Important constraints:
 - Do not generate or hallucinate any code.
-- Only copy actual, verifiable source code from the repository.
+- Only copy actual, verifiable source code from the repository. Do not add anything.
 - For each code block, prepend a comment with the full path to the source file it was extracted from.
 
 The output should be a single .cpp file containing all this code, structured clearly for downstream use by another agent that will use this as trusted context for kernel rewriting or retargeting.
